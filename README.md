@@ -18,7 +18,7 @@ If you use GeoFractalLines in your research, please cite:
   title        = {GeoFractalLines: Box-Counting Fractal and Multifractal Analysis for QGIS},
   version      = {1.0.0},
   year         = {2026},
-  url          = {https://github.com/YOUR-USERNAME/GeoFractalLines},
+  url          = {https://[github.com/YOUR-USERNAME/GeoFractalLines](https://github.com/roko-gis/GeoFractalLines)},
   doi          = {[(https://doi.org/10.5281/zenodo.20960565)},
   publisher    = {Zenodo}
 }
