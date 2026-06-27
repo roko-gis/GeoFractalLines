@@ -1,0 +1,48 @@
+GeoFractalLines — Installation & Dependencies
+=============================================
+
+This guide explains how to install and set up GeoFractalLines in QGIS.
+
+---------------------------------------------
+REQUIREMENTS
+---------------------------------------------
+
+Software:
+- QGIS 3.22+
+- Python 3.x (bundled with QGIS)
+- Processing Toolbox enabled
+
+Python Libraries:
+- numpy
+- scipy
+- pandas
+- openpyxl
+
+---------------------------------------------
+INSTALLATION METHODS
+---------------------------------------------
+
+Method 1 — QGIS Python Console (Recommended)
+
+Open QGIS → Python Console and run:
+
+import pip
+
+pip.main(["install", "numpy"])
+pip.main(["install", "scipy"])
+pip.main(["install", "pandas"])
+pip.main(["install", "openpyxl"])
+
+
+Method 2 — OSGeo4W Shell (Windows)
+
+python -m pip install numpy scipy pandas openpyxl
+
+
+Method 3 — Linux (System Python / QGIS Python)
+
+pip3 install numpy scipy pandas openpyxl
+
+If permission errors occur:
+
+pip3 install --user numpy scipy pandas openpyxl
