@@ -22,7 +22,7 @@ Python Libraries:
 INSTALLATION METHODS
 ---------------------------------------------
 
-Method 1 — QGIS Python Console (Recommended)
+Method 1 — QGIS Python Processing Script (Recommended)
 
 Open QGIS → Python Console and run:
 
